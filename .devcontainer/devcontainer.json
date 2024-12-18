@@ -6,6 +6,10 @@
   ],
   "customizations": {
     "vscode": {
+      "settings": {
+        "java.home": "/usr/local/openjdk-21",
+        "java.import.gradle.enabled": true
+      },
       "extensions": [
         "redhat.java",
         "vscjava.vscode-java-pack",
