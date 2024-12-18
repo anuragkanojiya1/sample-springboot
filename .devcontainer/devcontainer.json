@@ -1,0 +1,21 @@
+{
+  "name": "Java Development with Gradle",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "forwardPorts": [
+    8080
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.home": "/usr/local/java",
+        "java.import.gradle.enabled": true
+      },
+      "extensions": [
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-java-test"
+      ]
+    }
+  },
+  "postCreateCommand": "./gradlew build"
+}
