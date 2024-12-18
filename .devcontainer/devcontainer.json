@@ -6,6 +6,9 @@
   ],
   "customizations": {
     "vscode": {
+      "settings": {
+      "remote.autoForwardPortsSource": "process"
+    },
       "extensions": [
         "redhat.java",
         "vscjava.vscode-java-pack",
