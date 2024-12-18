@@ -1,19 +1,16 @@
 {
   "name": "Java Development with Gradle",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "image": "mcr.microsoft.com/devcontainers/java:latest",
   "forwardPorts": [
     8080
   ],
   "customizations": {
     "vscode": {
-      "settings": {
-        "java.home": "/usr/local/java",
-        "java.import.gradle.enabled": true
-      },
       "extensions": [
         "redhat.java",
         "vscjava.vscode-java-pack",
-        "vscjava.vscode-java-test"
+        "vscjava.vscode-java-test",
+        "vmware.vscode-boot-dev-pack"
       ]
     }
   },
