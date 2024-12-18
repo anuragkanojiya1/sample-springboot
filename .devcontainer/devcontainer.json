@@ -1,6 +1,6 @@
 {
   "name": "Java Development with Gradle",
-  "image": "mcr.microsoft.com/devcontainers/java:22",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
   "forwardPorts": [
     8080
   ],
