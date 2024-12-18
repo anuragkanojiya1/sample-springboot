@@ -14,5 +14,5 @@
       ]
     }
   },
-  "postCreateCommand": "chmod +x ./gradlew\n ./gradlew bootRun\n"
+  "postCreateCommand": "chmod +x ./gradlew\n ./gradlew build\n"
 }
